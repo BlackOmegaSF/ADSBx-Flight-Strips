@@ -14,5 +14,5 @@
 ## Usage
 With the extension enabled, navigate to https://globe.adsbexchange.com/ and click on an aircraft. A flight strip will automatically pop up. Deselecting the aircraft will remove the flight strip.
 
-[!NOTE]
-If multiple aircraft are selected, only the flight strip for the most recent aircraft will be shown.
+> [!NOTE]
+> If multiple aircraft are selected, only the flight strip for the most recent aircraft will be shown.

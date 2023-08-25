@@ -1,4 +1,4 @@
 /prod
-/node-modules
+/node-modules/*
 package-lock.json
 package.json

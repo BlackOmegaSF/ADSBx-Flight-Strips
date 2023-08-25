@@ -8,8 +8,8 @@
 1.  Click "Load Unpacked" and choose the folder with the extracted files.
 1.  You may delete the extracted files after installing.
 
-[!NOTE]
-To install an update, delete the extension and reinstall.
+> [!NOTE]
+> To install an update, delete the extension and reinstall.
 
 ## Usage
 With the extension enabled, navigate to https://globe.adsbexchange.com/ and click on an aircraft. A flight strip will automatically pop up. Deselecting the aircraft will remove the flight strip.

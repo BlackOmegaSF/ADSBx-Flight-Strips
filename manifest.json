@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Flight Strips",
+    "description": "Display flight strips on ADSBExchange.com",
+    "version": "1.0",
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "permissions": ["activeTab"],
+    "content_scripts": [
+        {
+            "matches": ["https://globe.adsbexchange.com/*"],
+            "js": ["jquery-3.7.0.min.js", "injection.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["flightStrip.html"],
+            "matches": ["https://globe.adsbexchange.com/*"]
+        }
+    ],
+    "host_permissions": [
+        "https://*.flightaware.com/*"
+    ]
+}
